@@ -1,35 +1,139 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+
+}
 body{
-    padding: 0;
-    margin: 0;
-    background-color: blue;
-    font-size: 30px;
-    font-family: Verdana;
-    font-style: italic;
-    font-style: oblique;
+    background-color: black;
+}
+header{
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+    }
+ 
+    nav {
+        
+        float: right; 
+      }
+      nav ul {
+          
+        list-style: none;
+        overflow: hidden; 
+      }  
+      nav ul li {
+        float: left;
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+      }
+     
+      nav ul li a {
+        display: block; 
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+      }
+   
+      nav ul li:hover {
+        background:gray;
+      }
+
+  .portafolio{
+    float: left;
+    display: block;
+    font-size: 25px;
+    list-style: none;
+    overflow: hidden; 
+    padding: 20px;
+    padding-left: 10%; 
+    color: white;
+    font-family: "algerian",  italic;
+  }
+  .portafolio span{
+      font-size: 32px;
+      color: white;
+      background-color: gray;
+
+  }
+  .portafolio:hover{
+   color:gray;
+  }
+      
+
+  .conten {
+    background-image:url("https://s1.1zoom.me/b5050/925/348996-admin_1920x1200.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+.conten:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    position: absolute;
+    opacity: 0.5;
+}
+.conten h1,h4{
+    position: relative;
+
+}
+.conten h1{
+    color: black;
+    font-family: "sans-serif";
+    font-size: 60px;
+   
+   
+    
+}
+.conten h4{
+    text-decoration-line: overline;
+    color: black;
+    font:bold 30px "Courier new";
+}
+.container{
+    width: 100%;
+    height: 800px;
+    background: #333333;
+    font:40px "sans-serif";
+    text-align: center;
+    display: block;
+    padding-top: 50px; 
+    color: white;
+
+}
+.container p{
+    font-size: 35px;
+}
+
+.tittleDP
+{
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+   
+}
+.tittlesDP
+{
+   font: bold 10px "Open Sans";
+    
+    color: #cccccc;
     
 }
 
-header{
-    width: 100%;
-    background-color: white; 
-    display: inline;
-}
 
-nav{
-    width: 600px;
-    margin: 5px;
-    display: inline-block;
-}
-nav li{
-    display: inline;
-}
 
-.logo{
-    margin: 80px;
-    width: 20px;
-    background-clip: yellow;
-    display: inline-block;
-}
-.logo img{
-    width: 60px;
-}
+
+  
+
+
