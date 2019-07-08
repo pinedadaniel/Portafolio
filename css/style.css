@@ -113,25 +113,110 @@ header{
 
 }
 .container p{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .tittleDP
 {
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    color: gray;
-   
+    color: #7F8C8D;
+    text-align: start;
+    line-height: 30px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    
+    
+    
 }
 .tittlesDP
 {
-   font: bold 10px "Open Sans";
-    
-    color: #cccccc;
-    
+  display: block;
+   font: bold 16px "Open Sans", sans-serif;
+   padding-bottom: 20px;
+   color: #cccccc; 
+   float: left;
+   text-decoration: none;
+   
+   
+
+}
+.container p.tittlesDP{
+  display: flex;
+  font-size: 20px;
+  padding-bottom: 20px;
+  float: left;
+  text-decoration: none;
+  letter-spacing: 1px;
+  
 }
 
 
+.container p.infoDP{
+  padding-bottom: 20px;
+  font-size: 14px;
+  padding-top: 20px;
+  color: #e5e5e5; 
+  text-align: start;
+  padding-bottom: 20px;
+  letter-spacing: 1px;
+  font: bold 16px "Open Sans", sans-serif;
+
+}
+
+.iconBook{
+padding-top: 10px;
+display: flex;
+float: right;
+}
+.iconLema{
+  padding-top: 10px;
+  display: flex;
+  float: right;
+  }
+.iconBook:hover{
+  width: 73px;
+  height: 93px;
+}
+.iconLema:hover{
+  width: 75px;
+  height: 95px;
+  }
+  
+  p.lema{
+
+    font-size: 14px;
+    
+    color: white; 
+    text-align: start;
+   
+    letter-spacing: 1px;
+    font: 20px "Bodoni MT Condensed";
+  }
+
+.tittleLema{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #7F8C8D;
+  text-align: start;
+  line-height: 30px;
+  padding-bottom: 10;
+  letter-spacing: 1px;
+  
+  
+}
+.tittleDF{
+  padding-top: 30px; 
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  color: #7F8C8D;
+  text-align: start;
+  line-height: 30px;
+  padding-bottom: 10;
+  letter-spacing: 1px;
+  
+  
+}
 
 
   
