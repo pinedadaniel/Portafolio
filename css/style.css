@@ -37,7 +37,10 @@ header{
         text-decoration: none;
       }
         nav ul li:hover {
-        background:gray;
+        background:white;
+      }
+      nav ul li a:hover {
+        color:blue;
       }
   .portafolio{
     float: left;
@@ -51,12 +54,14 @@ header{
     font-family: "algerian",  italic;
   }
   .portafolio span{
-      font-size: 32px;
+      font-size: 27px;
       color: white;
       background-color: gray;
   }
   .portafolio:hover{
-   color:gray;
+   color:white;
+   font-size: 26px;
+
   }
   .conten {
     background-image:url("https://s1.1zoom.me/b5050/925/348996-admin_1920x1200.jpg");
@@ -113,7 +118,7 @@ p.dato{
   
 }
 p.dato a{
-  color: #cccccc;
+  color: #7F8C8D;
   font-size: 25px;
   font-family: 'Monotype Corsiva';
 }
@@ -134,11 +139,11 @@ float: right;
   }
 .iconBook:hover{
   width: 73px;
-  height: 93px;
+  height: 90px;
 }
 .iconLema:hover{
   width: 75px;
-  height: 95px;
+  height: 90px;
   }
   
   p.lema{
@@ -194,7 +199,7 @@ float: right;
   
  
  
-    background-image:url("https://i.pinimg.com/originals/b7/8e/38/b78e38afa122ed09c12675d352e1ec3d.jpg");
+    background-image:url("https://images7.alphacoders.com/549/549940.jpg");
     width: 100%;
     height: 1000px;
     background-size: cover;
@@ -212,8 +217,7 @@ float: right;
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.1;
-}
+    opacity: 0.2}
   
 
 .detalles{
